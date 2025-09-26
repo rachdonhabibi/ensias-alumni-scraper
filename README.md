@@ -53,6 +53,46 @@ Before running the project, ensure you have the following installed:
      source venv/bin/activate
      ```
 
+4. **Install the Requirements**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. **Run the Notebook**:
+   You can run the notebook to perform the scraping and initial data processing.
 
 ---
 
+## Data Cleaning and Enrichment
+
+After running the notebook, you will obtain a CSV file containing the scraped alumni data.
+The image below (`output.png`) is an example of the output of the notebook :
+
+![Sample Output](D:/1%20Projects/Ensias/image/output.png)
+
+To further enhance the dataset, we cleaned the extracted data and enriched it using the confidential database provided by ENSIAS Bridge Club, which contains comprehensive information about a large number of alumni. This enrichment process added two key attributes to our dataset:
+
+- **Sex** (Gender)
+- **Major** (translated from French "filière")
+
+This allowed us to gain deeper insights and more meaningful visualizations.
+
+
+
+---
+
+## Data Visualization
+
+With the enriched CSV file (note: no data warehouse or other advanced storage was used; the file used for visualization was simply a CSV file), we created interactive visualizations using Power BI. These visualizations help illustrate trends, distributions, and statistics about ENSIAS alumni, including career paths, gender distribution, and majors.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request if you wish to contribute.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
