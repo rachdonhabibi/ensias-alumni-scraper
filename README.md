@@ -53,12 +53,7 @@ Before running the project, ensure you have the following installed:
      source venv/bin/activate
      ```
 
-4. **Install the Requirements**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-5. **Run the Notebook**:
+4. **Run the Notebook**:
    You can run the notebook to perform the scraping and initial data processing.
 
 ---
@@ -82,16 +77,21 @@ This allowed us to gain deeper insights and more meaningful visualizations.
 
 ## Data Visualization
 
-With the enriched CSV file (note: no data warehouse or other advanced storage was used; the file used for visualization was simply a CSV file), we created interactive visualizations using Power BI. These visualizations help illustrate trends, distributions, and statistics about ENSIAS alumni, including career paths, gender distribution, and majors.
+With the enriched CSV file (note: no data warehouse or other advanced storage was used; the file used for visualization was simply a CSV file), we created interactive visualizations using **Power BI**. These visualizations help illustrate trends, distributions, and statistics about ENSIAS alumni, including career paths, gender distribution, and majors.
+
+### Dashboards
+
+We realized three dashboards to showcase the insights:
+
+1. **Dashboard 1**: Focuses on professional development and certifications of alumni.
+   ![Dashboard 1](image/output.png)
+
+2. **Dashboard 2**: Highlights the distribution of alumni by field of study and geographic location.
+   ![Dashboard 2](image/dashboard2.png)
+
+3. **Dashboard 3**: Tracks alumni based on activity sectors and top recruiting companies.
+   ![Dashboard 3](image/dashboard3.png)
 
 ---
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request if you wish to contribute.
-
----
-
-## License
-
-This project is licensed under the MIT License.
+Feel free to let me know if you need further adjustments or additional sections! 😊
