@@ -68,8 +68,7 @@ Before running the project, ensure you have the following installed:
 After running the notebook, you will obtain a CSV file containing the scraped alumni data.
 The image below (`output.png`) is an example of the output of the notebook :
 
-![Sample Output](D:/1%20Projects/Ensias/image/output.png)
-
+![Sample Output](image/output.png)
 To further enhance the dataset, we cleaned the extracted data and enriched it using the confidential database provided by ENSIAS Bridge Club, which contains comprehensive information about a large number of alumni. This enrichment process added two key attributes to our dataset:
 
 - **Sex** (Gender)
