@@ -52,49 +52,7 @@ Before running the project, ensure you have the following installed:
      ```bash
      source venv/bin/activate
      ```
-4. **Install the Required Packages**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+
 
 ---
 
-## Usage
-
-To start the web scraping process, run the following command:
-
-```bash
-python scraper.py
-```
-
-This will begin scraping LinkedIn profiles based on the predefined criteria in the `scraper.py` file. The scraped data will be stored in a CSV file for later analysis.
-
----
-
-## Data Visualization
-
-After scraping the data, you can generate visualizations by running:
-
-```bash
-python visualize.py
-```
-
-This will create interactive visualizations using **Plotly** and **Dash**, showcasing various insights about the ENSIAS alumni.
-
----
-
-## Contributing
-
-We welcome contributions from everyone! To contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make the necessary changes and commit them.
-4. Push your changes to your forked repository.
-5. Submit a pull request detailing your changes.
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
