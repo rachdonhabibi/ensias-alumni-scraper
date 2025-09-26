@@ -8,11 +8,13 @@ This project combines the power of **web scraping** and **data visualization** t
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Data Cleaning and Enrichment](#data-cleaning-and-enrichment)
 - [Data Visualization](#data-visualization)
-- [Contributing](#contributing)
-- [License](#license)
-
+  - [Dashboards](#dashboards)
+    - [1. Distribution of Alumni by Major and Geographic Area](#1-distribution-of-alumni-by-major-and-geographic-area)
+    - [2. Professional Development and Certifications](#2-professional-development-and-certifications)
+    - [3. Alumni by Sector and Top Employers](#3-alumni-by-sector-and-top-employers)
+- [Summary](#summary)
 ---
 
 ## Getting Started
