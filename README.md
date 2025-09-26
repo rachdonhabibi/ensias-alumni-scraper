@@ -84,7 +84,7 @@ With the enriched CSV file (note: no data warehouse or other advanced storage wa
 We realized three dashboards to showcase the insights:
 
 1. **Dashboard 1**: Focuses on professional development and certifications of alumni.
-   ![Dashboard 1](image/output.png)
+   ![Dashboard 1](image/dashboard1.png)
 
 2. **Dashboard 2**: Highlights the distribution of alumni by field of study and geographic location.
    ![Dashboard 2](image/dashboard2.png)
@@ -94,4 +94,3 @@ We realized three dashboards to showcase the insights:
 
 ---
 
-Feel free to let me know if you need further adjustments or additional sections! 😊
