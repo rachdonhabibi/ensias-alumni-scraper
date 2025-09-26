@@ -77,20 +77,28 @@ This allowed us to gain deeper insights and more meaningful visualizations.
 
 ## Data Visualization
 
-With the enriched CSV file (note: no data warehouse or other advanced storage was used; the file used for visualization was simply a CSV file), we created interactive visualizations using **Power BI**. These visualizations help illustrate trends, distributions, and statistics about ENSIAS alumni, including career paths, gender distribution, and majors.
+With the enriched and cleaned CSV file processed with pandas (note: no data warehouse or other advanced storage was used; the file used for visualization was simply a CSV file), we created interactive visualizations using **Power BI**. These visualizations help illustrate trends, distributions, and statistics about ENSIAS alumni, including career paths, gender distribution, and majors.
 
 ### Dashboards
 
-We realized three dashboards to showcase the insights:
+#### 1. Distribution of Alumni by Major and Geographic Area
+![Dashboard 1](image/dashboard1.png)
 
-1. **Dashboard 1**: Focuses on professional development and certifications of alumni.
-   ![Dashboard 1](image/dashboard1.png)
+This dashboard shows the distribution of 234 alumni across majors, graduation years, and countries. The most represented majors are Software Engineering and Business Intelligence, with alumni spread internationally—especially in Europe and North America. Gender distribution is balanced, and the map visualization highlights a strong global presence for ENSIAS graduates.
 
-2. **Dashboard 2**: Highlights the distribution of alumni by field of study and geographic location.
-   ![Dashboard 2](image/dashboard2.png)
+#### 2. Professional Development and Certifications
+![Dashboard 2](image/dashboard2.png)
 
-3. **Dashboard 3**: Tracks alumni based on activity sectors and top recruiting companies.
-   ![Dashboard 3](image/dashboard3.png)
+Here, we focus on alumni certifications and double degrees. About half of the alumni have at least one certification, mainly in data science, software development, and project management. A significant share also pursued double degrees. The dashboard allows filtering by gender and field of study, showing that professional development opportunities are accessible across the board.
+
+#### 3. Alumni by Sector and Top Employers
+![Dashboard 3](image/dashboard3.png)
+
+This dashboard tracks the industry sectors and employers hiring ENSIAS alumni. IT and engineering dominate, but consulting and data science are also strong. Companies like Société Générale, CGI, and IBM are top recruiters. The number of sectors employing alumni has grown, reflecting the versatility of ENSIAS graduates.
 
 ---
+
+### Summary
+
+These dashboards together provide a clear and concise overview of ENSIAS alumni outcomes. They reveal strong representation in technology and engineering fields, broad international mobility, ongoing professional development, and close ties to leading employers. As a data analyst, these insights demonstrate ENSIAS’s effectiveness in preparing students for successful, global careers and in meeting the evolving demands of the job market.
 
