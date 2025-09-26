@@ -84,7 +84,7 @@ With the enriched and cleaned CSV file processed with pandas (note: no data ware
 #### 1. Distribution of Alumni by Major and Geographic Area
 ![Dashboard 1](image/dashboard1.png)
 
-This dashboard shows the distribution of 234 alumni across majors, graduation years, and countries. The most represented majors are Software Engineering and Business Intelligence, with alumni spread internationally—especially in Europe and North America. Gender distribution is balanced, and the map visualization highlights a strong global presence for ENSIAS graduates.
+This dashboard highlights strong representation in software engineering and business intelligence, as well as a balanced gender distribution and global presence. Notably, the decrease in alumni going abroad in 2020 directly correlates with the COVID-19 pandemic, reinforcing the dashboard’s reliability and real-world relevance.
 
 #### 2. Professional Development and Certifications
 ![Dashboard 2](image/dashboard2.png)
